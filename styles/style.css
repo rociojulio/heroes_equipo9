@@ -1,5 +1,7 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
 }
 main {
@@ -108,11 +110,22 @@ button {
 }
 
 footer {
+    display: flex;
     margin-top: 150px;
     background-color: #00669F;
     padding: 20px;
+    justify-content: center;
     
     color: #ffffff;
     
 }
 
+@media (max-width: 600px) {
+
+    main{
+        display:flex;
+        flex-direction: column;
+    }
+
+
+}
