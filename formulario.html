@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/formulario.css">
+</head>
+<body>
+    <header>
+     <!-- NO TENGO NADA -->
+    </header>
+    <main>
+        <section>
+            <article>
+                <h1>Añade tu Súper</h1>
+                <p>Agrega tu personaje favorito completando las opciones</p>
+                <div class="nombre-especie">
+                    <section class="flex-column">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </section>
+                   
+                    <section class="flex-column">
+                        <label for="especie">Especie</label>
+                        <select name="especie" id="especie">
+                            <option value="especie">Especie</option>
+                            <option value="tiburon">Tiburon</option>
+                            <option value="amazona">Amazona</option>
+                            <option value="kriptoniano">kriptoniano</option>
+                        </select>
+                    </section>
+
+                </div>
+                
+                <div class="flex-column fecha-foto" >
+                    <section class="flex-column" >
+                        <label for="fecha">Fecha</label>
+                        <input type="date" name="fecha" id="fecha">
+                    </section>
+                    <section class="flex-column">
+                        <label for="foto">Agregar Fotos</label>
+                        <input type="file" src="foto" alt="foto">
+                    </section>
+ 
+                </div>
+
+                <div class="flex-column descripcion-poderes">
+                    <section class="flex-column descripcion">
+                        <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
+                    </section>
+                    <section class="flex-column poderes-personaje">
+                        <h2>Poderes</h2>
+                        <div>
+                            <input type="checkbox" name="poderes" id="volar">
+                            <label for="volar">Volar</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="poderes" id="superinteligencia">
+                            <label for="superinteligencia">superinteligencia</label>
+                        </div>
+                       
+                        <div>
+                            <input type="checkbox" name="poderes" id="vistarasho">
+                            <label for="vistarasho">Vista de rayo láser</label>
+                        </div>
+                        
+                        <div>
+                            <input type="checkbox" name="poderes" id="billeteraGorda">
+                            <label for="billeteraGorda">Billetera Gorda</label>
+                        </div>
+
+    
+                        <h2>Tipo de Personaje</h2>
+                        <div>
+                            <input type="radio" name="personaje" id="heroe">
+                            <label for="heroe">Heroe/Heroina</label>
+                        </div>
+                        
+                        <div>
+                            <input type="radio" name="personaje" id="villano">
+                            <label for="villano">Villano/Villana</label>
+                        </div>
+                    </section>
+                </section>
+               
+            </article>
+        </section>
+
+    </main>
+
+
+</body>
+</html>

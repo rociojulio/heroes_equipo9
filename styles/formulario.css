@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    margin:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00669F;
+    width: 1000px;
+    height: 1000;
+    border-radius: 30px;
+    color: #FFF;
+    font-family: 'Karla', sans-serif;
+}
+
+.nombre-especie {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.nombre-especie input, select {
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.fecha-foto {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.fecha-foto input {
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.descripcion-poderes {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+.descripcion-poderes textarea {
+    height: 310px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+}
+
+.poderes-personaje{
+    margin-top: 30px;
+    align-items: flex-start;
+    width: 350px;
+    justify-content: space-between;
+}
+
+
